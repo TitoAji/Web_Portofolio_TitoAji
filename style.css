@@ -1,0 +1,151 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:blanchedalmond;
+    font-family: Poppins;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: 0px 4px 20px 10px rgb(165, 160, 160);
+    z-index: 1;
+}
+
+
+.container > nav {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-grow: 1;
+    background-color:darkkhaki;
+    font-size: 20px;
+}
+
+
+.container > nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+
+.desc{
+    font-size: 30px;
+    padding-left: 250px;
+    padding-top: 50px;
+}
+
+
+header > img{
+    width: 100px;
+    height: 100px;
+    background-color:darkkhaki;
+}
+
+
+.hire{
+    background-color: slategray;
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+
+.hire:hover{
+    background-color: black;
+    color: white;
+}
+
+marquee{
+    font-size: 25px;
+    color:black;
+    background-color:darkkhaki ;
+    direction: left;
+    height: 60px;
+    padding-top : 20px ;
+    word-spacing: 20px;
+      
+}
+
+
+.imghero{
+    padding-top: 50px;
+    padding-right: 30px;
+}
+
+
+.imghero > img{
+    border-radius: 50%;
+    width:300px ;
+    height: 300px;
+}
+
+
+.portofolio-content{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    gap: 1rem;
+    align-self: flex-end;
+    padding: 20px;
+    border-color: black;
+    background-color: darkkhaki;
+    border-style:groove;
+    border-radius: 20px;
+}
+
+.text-portofolio{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.abt{
+    border-color: black;
+    background-color: darkkhaki;
+    border-style:groove;
+    border-radius: 20px;
+    padding: 50px;
+}
+.portofolio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 70PX;
+}
+
+.send{
+    background-color: slategray;
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.send:hover{
+    background-color: black;
+    color: white;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    background-color: darkkhaki;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 150px;
+    margin-top: 100px;
+    padding-top:20px ;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    border-style: groove;
+    border-color: #000;
+}
